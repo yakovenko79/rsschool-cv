@@ -9,7 +9,7 @@ As a professional, I always clearly understand what I'm doing and always get gre
 
 ## PROFESSIONAL EXPERIENCE
 
-### May 2024 – present time | Dofamin(NL) as AQA Speciallist, Manual QA specialist
+### May 2024 – present time | Dofamin(NL) as QA specialist
 *	Automation mobile testing UI, API level
 *	Manual mobile testing 
 *	Load testing
@@ -66,7 +66,7 @@ I graduated from this school where I studied with mentors with extensive experie
 Test design techniques, test documentation, API testing (Postman, DevTools, HTTP methods, REST); SQL (joins, nested queries); Understanding of SDLC, STLC; Linux (commands, streams), Python + Selenium Framework (automation UI testing), requests library, Appium, Robot Framework, Git (branches), Docker (images, containers), locust  
 English B1
 
-Also i've started to learn Javascript (beginner level):
+Also i've started to learn Javascript programming language (beginner level):
 ```
 function multiply(a, b){
   return a * b
