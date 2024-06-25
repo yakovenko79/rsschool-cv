@@ -1,4 +1,5 @@
 # MIKHAIL IAKOVENKO
+![mikhail50](https://github.com/yakovenko79/rsschool-cv/assets/114107429/32b1dc3d-6551-411e-8037-79f98ed04c83)
 
 
 ## QA ENGINEER, QA AUTOMATION ENGINEER
