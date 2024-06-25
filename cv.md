@@ -9,7 +9,7 @@ As a professional, I always clearly understand what I'm doing and always get gre
 
 ## PROFESSIONAL EXPERIENCE
 
-### May 2024 – present time | Dofamin(NL) as QA specialist
+### May 2024 – present time | Dofamin(NL) as QA Specialist
 *	Automation mobile testing UI, API level
 *	Manual mobile testing 
 *	Load testing
