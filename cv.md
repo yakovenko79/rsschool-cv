@@ -12,10 +12,16 @@ As a professional, I always clearly understand what I'm doing and always get gre
 *   Manual testing UI, API (Figma, Bruno, Charles Proxy)
 *   Automation testing UI, API (Python, Playwright, Pytest, HTTPX, Allure)
 
+**Achievments:**
+*   Reduced the execution time of regression testing
+
 ### Sep 2024 - March 2025 | byTalent as Software QA Engineer
 *   Automation testing backend (C#, NUnit)
 *   Manual testing backend (Swagger, PostgreSQL)
 *   Business processes modelling (BPMN, Camunda)
+
+**Achievments:**
+*   Helped developers with writing unit tests
 
 ### May 2024 – Sep 2024 time | Dofamin(NL) as Software AQA Engineer
 *	Automation mobile testing UI, API level
