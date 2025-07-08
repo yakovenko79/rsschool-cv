@@ -34,5 +34,17 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
 
 
