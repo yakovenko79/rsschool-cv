@@ -4,31 +4,36 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
     <header>
-        <h1>MIKHAIL IAKOVENKO</h1>
-        <h2>SOFTWARE QA ENGINEER</h2>
-        <div class="contact-info">
-            <a href="https://www.linkedin.com/in/mikhail-iakovenko/" target="_blank">Linkedin</a>
-            discord: Mikhail Yakovenko (@yakovenko79)
-        </div>
-        <img class="header-image" src="assets\png\mike_photo.png" alt="avatar.jpg" />
+        <div class="header-container">
+            <img class="header-image" src="assets/png/mike_photo.png" alt="avatar.jpg" >
+
+            <div class="header-text">
+                <h1>MIKHAIL IAKOVENKO</h1>
+                <h2>SOFTWARE QA ENGINEER</h2>
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/mikhail-iakovenko/" target="_blank">Linkedin</a>
+                    discord: Mikhail Yakovenko (@yakovenko79)
+                </div>
+            </div>
+            
+        </div>        
     </header>
 
     <main>
-        <section>
+        <section aria-label="About Me">
             <p>
                 As a professional, I always clearly understand what I'm doing and always get great results as you can see from my achievements below. Fields of my expertise: test design methods, competent test coverage, troubleshooting 3-tier web applications
             </p>
         </section>
 
-        <section>
-            <h2>PROFESSIONAL EXPERIENCE</h2>
+        <section aria-label="Experience">
+            <h2 class="header-prof_exp">PROFESSIONAL EXPERIENCE</h2>
 
             <div class="job">
                 <h3>Yandex as Software QA Engineer</h3>
@@ -56,61 +61,40 @@
             </div>
 
             <div class="job">
-                <h3>Dofamin(NL) as Software AQA Engineer</h3>
-                <div class="job-period">May 2024 – Sep 2024</div>
+                <h3>Short-term projects: Sanplex(US) | Dofamin (NL) | Startupium (RU) as Software QA Engineer</h3>
+                <div class="job-period">March 2024 – Sep 2024</div>
                 <ul>
-                    <li>Automation mobile testing UI, API level</li>
-                    <li>Manual mobile testing</li>
-                    <li>Load testing</li>
-                </ul>
-                <div class="achievements">
-                    <strong>Achievments</strong>...
-                </div>
-            </div>
-
-            <div class="job">
-                <h3>Sanplex(US) as QA Specialist</h3>
-                <div class="job-period">March 2024 – June 2024</div>
-                <ul>
-                    <li>Testing UI level</li>
-                    <li>Testing API level</li>
+                    <li>Manual testing UI, API, DB levels, static testing (Postman, Figma, Dbeaver, MySQL, Charles Proxy, Jira, Confluence)</li>
+                    <li>Integration testing, system testing, e2e testing</li>
+                    <li>Automation testing web UI, API levels (Python, Pytest, Selenium, requests, Playwright, Allure, HTTPX)</li>
+                    <li>Automation mobile testing UI, API level (Robot Framework, Python, Android Studio, Appium, Java, Junit)</li>
+                    <li>Manual mobile testing (Android Studio, Charles Proxy)</li>
+                    <li>Load testing (Jmeter, Locust)</li>
                 </ul>
                 <div class="achievements">
                     <strong>Achievments</strong>
-                    <ul>
+                    <ul class="achievments-list">
                         <li>Participating in creating the QA process</li>
-                        <li>Creating autotest framework for autotesting UI and API level <a href="https://github.com/yakovenko79/Sanplex" target="_blank">GitHub</a></li>
+                        <li>Creating autotest framework for autotesting UI and API level GitHub</li>
                         <li>Work is always completed ahead of schedule</li>
+                        <li><a href="https://github.com/yakovenko79/Sanplex" target="_blank">Example of AQA project (Sanplex)</a></li>
+                        <li><a href="https://github.com/yakovenko79/Startupium_autotest" target="_blank">Example of AQA project (Startupium)</a></li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="job">
-                <h3>Startupium as QA Specialist</h3>
-                <div class="job-period">March 2024 – June 2024</div>
-                <ul>
-                    <li>Testing UI level</li>
-                    <li>Testing API level</li>
-                    <li>Testing DB level</li>
-                </ul>
-                <div class="achievements">
-                    <strong>Achievments</strong>
-                    <ul>
-                        <li>Participating in creating the QA process</li>
-                        <li>Creating autotest framework for autotesting UI and API level <a href="https://github.com/yakovenko79/Startupium_autotest" target="_blank">GitHub</a></li>
-                    </ul>
-                </div>
-            </div>
+            </div>           
         </section>
     </main>   
 
     <footer>
-        <div>© 2025 Mikhail Iakovenko CV</div>
-        <div class="footer-links">
-            <a href="https://github.com/yakovenko79" target="_blank">GitHub</a>
-            <img class="footer-image" src="assets\svg\rs-school-logo.svg" alt="logo rss" />
+        <div class="footer-container">
+            <div class="footer-left">
+                <span>© 2025</span>
+                <a href="https://github.com/yakovenko79" target="_blank">GitHub</a>
+            </div>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-right">
+                <img class="footer-image" src="assets/svg/rs-school-logo.svg" alt="logo rss" >
+            </a>
         </div>
     </footer>
-
 </body>
 </html>
