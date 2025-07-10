@@ -35,8 +35,6 @@ body {
     align-items: flex-end;
 }
 
-
-
 h1 {
     color: #4e667e;
     margin-bottom: 5px;
@@ -158,6 +156,3 @@ footer {
 .footer-image:hover {
     transform: scale(1.05);
 }
-
-
-
